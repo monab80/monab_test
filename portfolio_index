@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="welcome to the best hotel">
+    <meta name=keywords content= hotel, awesome, best>
+    <script src="https://kit.fontawesome.com/dcece9cf3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+   
+    <title>Mona Burns | The Story</title>
+
+</head>
+<body>
+    <header>
+        <nav id= navbar>
+            <div class="container">
+                <a href=index.html><img src="/Mona_website/img/mona_logo.svg" alt="logo" class="logo"></a>
+                <ul>
+                    <li><a class=current href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1 class=head-dark>My Journey from <span class="text-primary2">Architecture</span> to User Experience</h1>
+                    <p class=lead>This site was created solely using HTML5 and CSS as a way for me to gain experience in front-end coding and prepare me for a new journey in UX/UI design.</p>
+                    <a class="btn" href="about.html">More About This</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="history-info" class=bg-dark>
+        <div class="info-img"></div>
+        <div class="info-content">
+            <h2>From <span class="text-primary">Physical Space</span> to <span class="text-primary">Digital Space</span></h2>
+            <p>Understanding the human-centered approach through physical space and functionality can be directly applied to the science of user-experience and the web-based spaces we interact with daily. 
+                
+                From <span class="text-primary">spacial architecture</span> to <span class="text-primary">information architecture </span>. 
+                
+                From <span class="text-primary">Way-finding </span>to <span class="text-primary">wire-framing</span>.</p>
+                
+                Over my 17 years as an architectural and interior designer, I have gained the knowledge and experience of user-centric design thought ideation. I have mastered expertise in approaching each project and design problem with the end-user in mind, through direct interviews, community input, and research. All of the built environments I have designed and worked through into completion have given me the insight and experience to understand how to implement my client's needs in the most thoughtful, cost-effective ways through interdisiplinary design and creative problem-solving skills.
+                <br>
+                <br>
+                <a href="about.html" class="btn btn-light">Read More</a>
+            </div>
+    </section>    
+            <section id="career">  
+                    <div class="container">
+                        <div class="career-flow">
+                            <h1>My <span class="text-primary2">Career</span> User Flow</h1>
+                            <img src="/Mona_website/img/career_flowchart.jpg" alt="flow chart">
+                        </div>
+                    </div>
+            </section>
+
+            
+   
+        <section id="features">
+            <div class="box bg-dark">
+                <i class="fas fa-glass-martini-alt fa-4x"></i>
+                <h3>HOSPITALITY DESIGN</h3>
+                <p>13 years & over 40 projects including: casino, hotel, conference hall, resort, night club, restaurant, & spas</p>
+            </div>
+            <div class="box bg-primary">
+                <i class="fas fa-handshake fa-4x"></i>
+                <h3>CORPORATE OFFICE DESIGN</h3>
+                
+                <p>15 projects <br> including several large corporate repositionings</p>
+            </div>
+            <div class="box bg-dark">
+                <i class="fas fa-book-reader fa-4x"></i>
+                <h3>COMMUNITY</h3>
+                <p>10 Public Libraries and several Preschool, Elementary & High Schools, Higher Education & Senior Centers</p>
+            </div>
+        </section>
+        <div class="clr"></div>
+    <footer id="main-footer">
+        <p>Mona Burns &copy: 2021, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
